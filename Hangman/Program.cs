@@ -36,9 +36,15 @@ namespace Hangman
                 {
                     if (playerGuess == mysteryWord[j])
                         guess[j] = playerGuess;
+<<<<<<< Updated upstream
                     //else
                     if (playerGuess != mysteryWord[j])
                         Console.WriteLine("Try again");
+=======
+                    else
+                    //if (playerGuess != mysteryWord[j])
+                    Console.WriteLine("Try again"); 
+>>>>>>> Stashed changes
 
 
                 }
@@ -55,7 +61,11 @@ if (i == chance)
                     Console.WriteLine("The word is " + mysteryWord);
                 }
 
+<<<<<<< Updated upstream
 
+=======
+ 
+>>>>>>> Stashed changes
             
         }
     }
